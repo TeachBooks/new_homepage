@@ -10,7 +10,7 @@ build:
     stage: build
     image: docker
     rules:
-        - if: $CI_COMMIT_BRANCH == "main && $CI_PIPELINE_SOURCE == "push"
+        - if: $CI_COMMIT_BRANCH == "main" && $CI_PIPELINE_SOURCE == "push"
     before_script:
         - docker info
     script:
