@@ -27,4 +27,4 @@ deploy:
         - docker stop $CI_PROJECT_NAME || exit_code=$?
         - if [ $exit_code -ne 0 ]; then echo "Container not found, cannot stop"; else docker rm $CI_PROJECT_NAME; fi
     script:
-        - docker run -d -p 8007:80 --name $CI_PROJECT_NAME $TAG
+        - docker run -d --restart always -p 8007:80 --name $CI_PROJECT_NAME $TAG
