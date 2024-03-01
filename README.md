@@ -1,4 +1,4 @@
 # Homepage
 
-A simple homepage for the interactive textbooks website.
+A bit more extensive homepage for the interactive textbooks website.
 
