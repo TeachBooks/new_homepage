@@ -1,32 +1,638 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Interactive Textbooks CiTG</title>
-    </head>
-    <h1 style="position: absolute; display: flex; flex-grow: 0; flex-shrink: 0; flex-direction: row-reverse; top: 60px;right: 30px; margin: 0; border: 0">
-        <style>
-            .markdown {width:100%; position: relative}
-            article { position: relative }
-        </style>
-        <img src="https://gitlab.tudelft.nl/mude/public/-/raw/main/tu-logo/TU_P1_full-color.png" style="width:100px" />
-    </h1>
-    <h2 style="height: 10px">
-    </h2>
-    <body>
-        <h1>Interactive Textbooks CiTG</h1>
-        <ul>
-            <li><a href="https://interactivetextbooks.citg.tudelft.nl/csbb-textbook">CSBB Textbook</a></li>
-            <li><a href="https://interactivetextbooks.citg.tudelft.nl/engineering-hydrology">Engineering Hydrology</a></li>
-            <li><a href="https://interactivetextbooks.citg.tudelft.nl/computational-modelling">Computational Modelling</a></li>
-            <li><a href="https://interactivetextbooks.citg.tudelft.nl/jupyter-book-manual">Jupyter Book Manual</a></li>
-            <li><a href="https://interactivetextbooks.citg.tudelft.nl/mechanics">Mechanics</a></li>
-            <li><a href="https://interactivetextbooks.citg.tudelft.nl/engineering-systems-optimization">Engineering Systems Optimization</a></li>
-            <li><a href="https://interactivetextbooks.citg.tudelft.nl/dsaie">DSAIE</a></li>
-            <li><a href="https://interactivetextbooks.citg.tudelft.nl/risk-reliability">Risk and Reliability</a></li>
-        </ul>
-        <p>
-            For additional information, contact Robert Lanzafame or Tom van Woudenberg via <a>books-CEG@tudelft.nl</a> or visit <a href="https://gitlab.tudelft.nl/interactivetextbooks-citg/" target="_blank">gitlab.tudelft.nl/interactivetextbooks-citg</a>.
-        </p>
-    </body>
-</html>
 
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="">
+
+  <title> Finexo </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <div class="hero_area">
+
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="images/hero-bg.png" alt="">
+      </div>
+    </div>
+
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              TeachBooks
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Interactive <br>
+                      Textbooks
+                    </h1>
+                    <p>
+                      We make interactive textbooks for educational purposes. We are convinced that interactive textbooks allow for a better learning experience by activating the student at exactly the right time with a wide range of interactive elements.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="images/active_learning.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Teacher's <br>
+                      Assistance
+                    </h1>
+                    <p>
+                      We provide teachers with the tools to make, share and collaborate on their books.
+                      Join our community in GitLab!
+                    </p>
+                    <div class="btn-box">
+                      <a href="https://interactivetextbooks.citg.tudelft.nl/" class="btn1">
+                        GitLab
+                      </a>
+                    </div>
+                    <div class="btn-box">
+                      <a href="https://github.com/TeachBooks" class="btn1">
+                        GitHub
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="images/teachers.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Support
+                    </h1>
+                    <p>
+                      Don't you know where to start? Contact us at books-CEG@tudelft.nl and our TAs help you to get started with your interactive textbook!
+                    </p>
+                    <div class="btn-box">
+                      <a href="mailto:https://interactivetextbooks.citg.tudelft.nl/" class="btn1">
+                        Contact us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="images/support.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#customCarousel1" data-slide-to="1"></li>
+          <li data-target="#customCarousel1" data-slide-to="2"></li>
+        </ol>
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            Our <span>Services</span>
+          </h2>
+          <p>
+            We offer help to teachers and students assistents to create and share interactive textbooks
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/manual_icon.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Manual
+                </h5>
+                <p>
+                  A manual on how to (start to) work and collaborate on your interactive textbook and explanation of existing and custom (interactive) features
+                </p>
+                <a href="https://interactivetextbooks.citg.tudelft.nl/jupyter-book-manual/intro.html">
+                  Read Manual
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/template_icon.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Template
+                </h5>
+                <p>
+                  A template to start with your own interactive textbook. This template allows you to start making your own interactive textbook with our features
+                </p>
+                <a href="https://github.com/TeachBooks/template">
+                  Start Book from Template
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/s3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Expert and Community Support
+                </h5>
+                <p>
+                  Students assistance and fellow users to help you get started and solve issues with your interactive textbook.
+                </p>
+                <a href="mailto:https://interactivetextbooks.citg.tudelft.nl/">
+                  Contact us
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container  ">
+      <div class="heading_container heading_center">
+        <h2>
+          About <span>Us</span>
+        </h2>
+        <p>
+          Teachers’ Educational Assistance for interaCtive Hands-on Browser-based Online Open Knowledge for Students
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="images/Logo.jpg" width="400px" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <h3>
+              We are TeachBooks
+            </h3>
+            <p>
+              Starting from the need to share educational materials in various form with students, we have developed a platform to create and share interactive textbooks. We found that the assistance of one student assistant is enough to create an interactive textbook for a small course.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- why section -->
+
+  <section class="why_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Our <span>TeachBooks</span>
+        </h2>
+      </div>
+      <div class="why_container">
+        <div class="box">
+          <a href="https://mude.citg.tudelft.nl/book/intro.html">
+            <div class="img-box">
+              <img src="images/MUDE_Logo-small.png"" alt="">
+            </div>
+          </a>
+          <div class="detail-box">
+            <h5>
+              Modelling, Uncertainty, and Data Analysis for Engineers
+            </h5>
+            <p>
+              MUDE is a module at the Civil Engineering and Geosciences faculty of Delft University of Technology: CEGM1000 Modelling, Uncertainty, and Data Analysis for Engineers, taken by all first year students in the MSc degree programs Applied Earth Sciences (AES), Environmental Engineering (EE) and Civil Engineering (CE).
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <a href="https://interactivetextbooks.citg.tudelft.nl/csbb-textbook/intro.html">
+            <div class="img-box">
+              <img src="images/Minor_Drawing.png"" alt="">
+            </div>
+          </a>
+          <div class="detail-box">
+            <h5>
+              Collaborative Research for Biomedical Breakthroughs minor
+            </h5>
+            <p>
+              This textbook was designed to guide supervisors, coaches, and students on following the journey we have developed for them in this minor. We are using the metaphor of a boat journey because it makes for fun pictures and may be helpful. Supervisors and coaches are available to provide guidance, but it is your journey. This textbook provides an overview of what we are including in lectures, workshops and topics, a little bit about why and some (hopefully) thought-provoking questions to inspire meaningful discussions. Each chapter is organized to cover the topics of that week, providing navigation markers for our journey.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <a href="https://interactivetextbooks.citg.tudelft.nl/computational-modelling/intro.html">
+            <div class="img-box">
+              <img src="images/TUDelft_logo_rgb.png" alt="">
+            </div>
+          </a>
+          <div class="detail-box">
+            <h5>
+              Finite Elements in Civil Engineering and Geosciences
+            </h5>
+            <p>
+              This is an open interactive book on Finite Elements with applications in Civil Engineering and Geosciences. The book has specifically been designed having in mind a target audience of students at a Master level, particularly for the Master in Civil Engineering in the Civil Engineering and Geosciences faculty at Delft University of Technology (TU Delft).
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <a href="https://interactivetextbooks.citg.tudelft.nl/mechanics">
+            <div class="img-box">
+              <img src="images/mechanics.jpg" alt="">
+            </div>
+          </a>
+          <div class="detail-box">
+            <h5>
+              Mechanics
+            </h5>
+            <p>
+              This books various mechanics content for the Civil Engineering Bachelor and Master.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end why section -->
+
+  <!-- team section -->
+  <section class="team_section layout_padding">
+    <div class="container-fluid">
+      <div class="heading_container heading_center">
+        <h2 class="">
+          Our <span> Team</span>
+        </h2>
+      </div>
+
+      <div class="team_container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-6">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/Tom.jpg" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Tom van Woudenberg
+                </h5>
+                <p>
+                  Lecturer Civil Engineering and Geosciences
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-gitlab" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-address-card" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/Robert.jpg" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Robert Lanzafame
+                </h5>
+                <p>
+                  Lecturer Civil Engineering and Geosciences
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-gitlab" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-address-card" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/student_army.jpg" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Student Army
+                </h5>
+                <p>
+                  Students from Civil Engineering and Geosciences and Electrical Engineering, Mathematics and Computer Science
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-gitlab" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end team section -->
+
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center psudo_white_primary mb_45">
+        <h2>
+          What say our <span>Students</span>
+        </h2>
+      </div>
+      <div class="carousel-wrap ">
+        <div class="owl-carousel client_owl-carousel">
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/student.jpg" alt="" class="box-img">
+              </div>
+              <div class="detail-box">
+                <div class="client_id">
+                  <div class="client_info">
+                    <h6>
+                      LusDen
+                    </h6>
+                    <p>
+                      magna aliqua. Ut
+                    </p>
+                  </div>
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/student2.jpg" alt="" class="box-img">
+              </div>
+              <div class="detail-box">
+                <div class="client_id">
+                  <div class="client_info">
+                    <h6>
+                      Zen Court
+                    </h6>
+                    <p>
+                      magna aliqua. Ut
+                    </p>
+                  </div>
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/student3.jpg" alt="" class="box-img">
+              </div>
+              <div class="detail-box">
+                <div class="client_id">
+                  <div class="client_info">
+                    <h6>
+                      LusDen
+                    </h6>
+                    <p>
+                      magna aliqua. Ut
+                    </p>
+                  </div>
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/studnet4.jpg" alt="" class="box-img">
+              </div>
+              <div class="detail-box">
+                <div class="client_id">
+                  <div class="client_info">
+                    <h6>
+                      Zen Court
+                    </h6>
+                    <p>
+                      magna aliqua. Ut
+                    </p>
+                  </div>
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-6 info_col">
+          <div class="info_contact">
+            <h4>
+              Address
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Delft University of Technology
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  books-CEG@tudelft.nl
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="info_social">
+            <a href="https://github.com/TeachBooks">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://gitlab.tudelft.nl/interactivetextbooks-citg">
+              <i class="fa fa-gitlab" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 info_col">
+          <div class="info_detail">
+            <h4>
+              Info
+            </h4>
+            <p>
+              TeachBooks: Teachers’ Educational Assistance for interaCtive Hands-on Browser-based Online Open Knowledge for Students\
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://html.design/">Free Html Templates</a>
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
