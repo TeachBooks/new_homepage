@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://teachbooks.tudelft.nl/</loc>
+  <lastmod>2024-03-06T14:06:27+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/index.html</loc>
+  <lastmod>2024-03-06T14:06:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/intro.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/features/live_code.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/features/custom_toc.html</loc>
+  <lastmod>2024-03-05T09:13:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/features/custom_download.html</loc>
+  <lastmod>2024-03-05T09:13:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/intro.html</loc>
+  <lastmod>2024-02-26T10:19:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/intro.html</loc>
+  <lastmod>2024-03-03T21:12:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/mechanics/</loc>
+  <lastmod>2024-02-23T14:05:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/</loc>
+  <lastmod>2024-02-27T10:31:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/rivers/</loc>
+  <lastmod>2024-02-24T07:59:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/installation-and-setup/overview.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/installation-and-setup/extension.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/installation-and-setup/git-setup.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/installation-and-setup/git-hub-desktop.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/installation-and-setup/vscode-setup.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/installation-and-setup/jupyter-book-setup.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/workflows/overview.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/workflows/git-basic.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/workflows/git-clone.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/workflows/git-branch.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/workflows/git-stage-commit-push.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/workflows/git-merge.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/workflows/git-advanced.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/workflows/git-merge-conflict.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/workflows/gitlab.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/workflows/github.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/basic-features/overview.html</loc>
+  <lastmod>2024-03-05T09:13:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/basic-features/recipes.html</loc>
+  <lastmod>2024-03-05T09:13:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/features/overview.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/features/hypothesis.html</loc>
+  <lastmod>2024-03-05T09:13:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/features/grasple.html</loc>
+  <lastmod>2024-03-05T09:13:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/features/h5p.html</loc>
+  <lastmod>2024-03-05T09:13:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/features/widgets.html</loc>
+  <lastmod>2024-03-05T09:13:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/features/exercise_checking.html</loc>
+  <lastmod>2024-03-05T09:13:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/features/jupyterlite/jupyterlite.html</loc>
+  <lastmod>2024-03-05T09:13:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/features/jupyterlite/configuration.html</loc>
+  <lastmod>2024-03-05T09:13:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/features/jupyterlite/including-jupyterlite.html</loc>
+  <lastmod>2024-03-05T09:13:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/examples/overview.html</loc>
+  <lastmod>2024-03-05T09:13:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/examples/h5p_examples.html</loc>
+  <lastmod>2024-03-05T09:13:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/examples/theory_questions.html</loc>
+  <lastmod>2024-03-05T09:13:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/examples/interactive_templates.html</loc>
+  <lastmod>2024-03-05T09:13:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/examples/example_gumbel.html</loc>
+  <lastmod>2024-03-05T09:13:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/examples/example_quiz_interactive.html</loc>
+  <lastmod>2024-03-05T09:13:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/examples/coding_theory_widgets.html</loc>
+  <lastmod>2024-03-05T09:13:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/examples/parametric_questions.html</loc>
+  <lastmod>2024-03-05T09:13:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Introduction.html</loc>
+  <lastmod>2024-02-26T10:19:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter1/Week1_1.html</loc>
+  <lastmod>2024-02-26T10:19:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter1/Week1_2.html</loc>
+  <lastmod>2024-02-26T10:19:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter1/Week1_3.html</loc>
+  <lastmod>2024-02-26T10:19:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter1/Week1_4.html</loc>
+  <lastmod>2024-02-26T10:19:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter1/Week1_5.html</loc>
+  <lastmod>2024-02-26T10:19:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter1/Week1_6.html</loc>
+  <lastmod>2024-02-26T10:19:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter1/Week1_7.html</loc>
+  <lastmod>2024-02-26T10:19:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter1/Week1_8.html</loc>
+  <lastmod>2024-02-26T10:19:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter1/Week1_9.html</loc>
+  <lastmod>2024-02-26T10:19:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter1/Week1_10.html</loc>
+  <lastmod>2024-02-26T10:19:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter2/Week2_1.html</loc>
+  <lastmod>2024-02-26T10:19:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter2/Week2_2.html</loc>
+  <lastmod>2024-02-26T10:19:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter2/Week2_3.html</loc>
+  <lastmod>2024-02-26T10:19:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter2/Week2_4.html</loc>
+  <lastmod>2024-02-26T10:19:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter2/Week2_5.html</loc>
+  <lastmod>2024-02-26T10:19:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter2/Week2_6.html</loc>
+  <lastmod>2024-02-26T10:19:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter2/Week2_7.html</loc>
+  <lastmod>2024-02-26T10:19:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter2/Week2_8.html</loc>
+  <lastmod>2024-02-26T10:19:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter2/Week2_9.html</loc>
+  <lastmod>2024-02-26T10:19:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/csbb-textbook/Quarter2/Week2_10.html</loc>
+  <lastmod>2024-02-26T10:19:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/preliminaries/intro.html</loc>
+  <lastmod>2024-03-03T21:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/preliminaries/tensors.html</loc>
+  <lastmod>2024-03-03T21:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/preliminaries/linear_algebra.html</loc>
+  <lastmod>2024-03-03T21:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/preliminaries/calculus.html</loc>
+  <lastmod>2024-03-03T21:12:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/introduction/intro.html</loc>
+  <lastmod>2024-03-03T21:12:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/introduction/strong.html</loc>
+  <lastmod>2024-03-03T21:12:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/introduction/weak.html</loc>
+  <lastmod>2024-03-03T21:12:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/introduction/discrete.html</loc>
+  <lastmod>2024-03-03T21:12:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/introduction/matrix.html</loc>
+  <lastmod>2024-03-03T21:12:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/introduction/shape.html</loc>
+  <lastmod>2024-03-03T21:12:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/introduction/numerical_integration.html</loc>
+  <lastmod>2024-03-03T21:12:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/introduction/poisson2d.html</loc>
+  <lastmod>2024-03-03T21:12:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/introduction/isoparametric_mapping.html</loc>
+  <lastmod>2024-03-03T21:12:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/introduction/Exercises/exercise1.html</loc>
+  <lastmod>2024-03-03T21:12:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/introduction/Exercises/supported-rod.html</loc>
+  <lastmod>2024-03-03T21:12:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/introduction/Tutorials/tutorial1.html</loc>
+  <lastmod>2024-03-03T21:12:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/continuum_linear/intro.html</loc>
+  <lastmod>2024-03-03T21:12:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/continuum_linear/continuum_mechanics.html</loc>
+  <lastmod>2024-03-03T21:12:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/continuum_linear/derivation.html</loc>
+  <lastmod>2024-03-03T21:12:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/continuum_linear/Exercises/exercises.html</loc>
+  <lastmod>2024-03-03T21:12:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/continuum_linear/Exercises/pyjive_intro.html</loc>
+  <lastmod>2024-03-03T21:12:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/continuum_linear/Exercises/pyjive_constraints.html</loc>
+  <lastmod>2024-03-03T21:12:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/structural_linear/intro.html</loc>
+  <lastmod>2024-03-03T21:12:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/structural_linear/euler_bernouilli.html</loc>
+  <lastmod>2024-03-03T21:12:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/structural_linear/timoshenko.html</loc>
+  <lastmod>2024-03-03T21:12:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/structural_linear/space_frame.html</loc>
+  <lastmod>2024-03-03T21:12:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/structural_linear/Tutorials/tutorials.html</loc>
+  <lastmod>2024-03-03T21:12:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/structural_linear/Tutorials/Gridap_euler_bernoulli.html</loc>
+  <lastmod>2024-03-03T21:12:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/structural_linear/Tutorials/Gridap_timoshenko.html</loc>
+  <lastmod>2024-03-03T21:12:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/structural_linear/Exercises/exercises.html</loc>
+  <lastmod>2024-03-03T21:12:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/structural_linear/Exercises/pyjive_timoshenko.html</loc>
+  <lastmod>2024-03-03T21:12:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/structural_linear/Exercises/pyjive_frame.html</loc>
+  <lastmod>2024-03-03T21:12:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/solid_nonlinear/intro.html</loc>
+  <lastmod>2024-03-03T21:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/solid_nonlinear/introduction.html</loc>
+  <lastmod>2024-03-03T21:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/solid_nonlinear/linearization.html</loc>
+  <lastmod>2024-03-03T21:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/solid_nonlinear/solution_algorithms.html</loc>
+  <lastmod>2024-03-03T21:12:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/solid_nonlinear/geometric_nonlinearity.html</loc>
+  <lastmod>2024-03-03T21:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/solid_nonlinear/material_nonlinearity.html</loc>
+  <lastmod>2024-03-03T21:12:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/solid_nonlinear/Exercises/exercises.html</loc>
+  <lastmod>2024-03-03T21:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/solid_nonlinear/Exercises/pyjive_nonlinmodule.html</loc>
+  <lastmod>2024-03-03T21:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/solid_nonlinear/Exercises/pyjive_material.html</loc>
+  <lastmod>2024-03-03T21:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/solid_nonlinear/Exercises/pyjive_buckling.html</loc>
+  <lastmod>2024-03-03T21:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/dynamics/intro.html</loc>
+  <lastmod>2024-03-03T21:12:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/dynamics/diffusion.html</loc>
+  <lastmod>2024-03-03T21:12:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/dynamics/diffusion_steppers.html</loc>
+  <lastmod>2024-03-03T21:12:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/schedules/intro.html</loc>
+  <lastmod>2024-03-03T21:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/schedules/1110.html</loc>
+  <lastmod>2024-03-03T21:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/schedules/5110.html</loc>
+  <lastmod>2024-03-03T21:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/codes/intro.html</loc>
+  <lastmod>2024-03-03T21:12:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/codes/Gridap.html</loc>
+  <lastmod>2024-03-03T21:12:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/codes/Pyjive.html</loc>
+  <lastmod>2024-03-03T21:12:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/mechanics/intro.html</loc>
+  <lastmod>2024-02-23T14:05:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/intro.html</loc>
+  <lastmod>2024-02-27T10:31:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/rivers/intro.html</loc>
+  <lastmod>2024-02-24T07:59:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/jupyter-book-manual/lite/repl/index.html</loc>
+  <lastmod>1985-10-26T08:15:00+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/introduction/videos.html</loc>
+  <lastmod>2024-03-03T21:12:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/introduction/Tutorials/Gridap_tutorial_1.html</loc>
+  <lastmod>2024-03-03T21:12:43+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/structural_linear/rod.html</loc>
+  <lastmod>2024-03-03T21:12:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/dynamics/Exercises/pyjive_diffusion.html</loc>
+  <lastmod>2024-03-03T21:12:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/solid_nonlinear/path_following.html</loc>
+  <lastmod>2024-03-03T21:12:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/dynamics/semi_discrete.html</loc>
+  <lastmod>2024-03-03T21:12:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/dynamics/modal_analysis.html</loc>
+  <lastmod>2024-03-03T21:12:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/computational-modelling/dynamics/time_steppers.html</loc>
+  <lastmod>2024-03-03T21:12:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/mechanics/structural_mechanics_4.html</loc>
+  <lastmod>2024-02-23T14:05:48+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/mechanics/advanced_structural_mechanics/unsymmetrical_bending.html</loc>
+  <lastmod>2024-02-23T14:05:48+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/mechanics/slender_structures.html</loc>
+  <lastmod>2024-02-23T14:05:48+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/mechanics/slender_structures/EB_ODE.html</loc>
+  <lastmod>2024-02-23T14:05:48+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/mechanics/slender_structures/EB_K_Feq.html</loc>
+  <lastmod>2024-02-23T14:05:48+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/mechanics/slender_structures/example.html</loc>
+  <lastmod>2024-02-23T14:05:48+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/pages/Python_start.html</loc>
+  <lastmod>2024-02-27T10:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/pages/Python_start_2.html</loc>
+  <lastmod>2024-02-27T10:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/pages/Python_start_3.html</loc>
+  <lastmod>2024-02-27T10:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/pages/Unconstrained_optimization.html</loc>
+  <lastmod>2024-02-27T10:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/pages/Unconstrained_optimization_example_1.html</loc>
+  <lastmod>2024-02-27T10:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/pages/Unconstrained_optimization_example_2.html</loc>
+  <lastmod>2024-02-27T10:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/pages/linear_constrained_optimization.html</loc>
+  <lastmod>2024-02-27T10:31:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/rivers/reliability-component/overview.html</loc>
+  <lastmod>2024-02-24T07:59:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/rivers/reliability-component/contamination.html</loc>
+  <lastmod>2024-02-24T07:59:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/rivers/references.html</loc>
+  <lastmod>2024-02-24T07:59:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://teachbooks.tudelft.nl/rivers/credits.html</loc>
+  <lastmod>2024-02-24T07:59:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
