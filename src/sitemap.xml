@@ -58,7 +58,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/</loc>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization/draft/</loc>
   <lastmod>2024-02-27T10:31:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -608,7 +608,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/intro.html</loc>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization/draft/intro.html</loc>
   <lastmod>2024-02-27T10:31:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -693,37 +693,37 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/pages/Python_start.html</loc>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization/draft/pages/Python_start.html</loc>
   <lastmod>2024-02-27T10:31:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/pages/Python_start_2.html</loc>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization/draft/pages/Python_start_2.html</loc>
   <lastmod>2024-02-27T10:31:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/pages/Python_start_3.html</loc>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization/draft/pages/Python_start_3.html</loc>
   <lastmod>2024-02-27T10:31:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/pages/Unconstrained_optimization.html</loc>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization/draft/pages/Unconstrained_optimization.html</loc>
   <lastmod>2024-02-27T10:31:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/pages/Unconstrained_optimization_example_1.html</loc>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization/draft/pages/Unconstrained_optimization_example_1.html</loc>
   <lastmod>2024-02-27T10:31:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/pages/Unconstrained_optimization_example_2.html</loc>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization/draft/pages/Unconstrained_optimization_example_2.html</loc>
   <lastmod>2024-02-27T10:31:38+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization-draft/pages/linear_constrained_optimization.html</loc>
+  <loc>https://teachbooks.tudelft.nl/engineering-systems-optimization/draft/pages/linear_constrained_optimization.html</loc>
   <lastmod>2024-02-27T10:31:39+00:00</lastmod>
   <priority>0.51</priority>
 </url>
