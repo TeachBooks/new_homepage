@@ -140,31 +140,41 @@
                 <div class="col-md-6 ">
                   <div class="detail-box">
                     <h1>
-                      Teacher<br>
-                      Assistance
+                      GitHub<br>
+                      Workflow
                     </h1>
                     <p>
-                      We provide teachers with the tools to make, share and collaborate on their books, regardless of whether you are a team of one or many.
-                      Join our discussions on GitHub! Or ask us a question on the TU Delft Open Interactive Textbooks Community Teams page!
+                      April 16th, 2024:
+                      Hi TeachBooks-enthusiasts!
+                      One of our TA's (Severin Bratus &#128588;) developed a <i class="fa fa-github" aria-hidden="true"></i>
+                      workflow which allows you to publish your TeachBook online. And even better,
+                      it allows you to deploy all branches, so that you don't have to deal with
+                      <code>local jupyter book build book </code> command-line headaches &#129301;!
+                      Our <a href="https://github.com/TeachBooks/template"> template book </a> makes use of this,
+                      but you can use this features yourself in around 20 clicks 🖱. We've updated our documentation in our
+                      <a href="https://teachbooks.tudelft.nl/jupyter-book-manual/features/github_deploy.html"> manual </a>! I'm curious about your thoughts on this!
+                      Kind regards,
+                      Tom van Woudenberg
+                      Ps. did I mention that all of this is not possible without our BSc-computer-science-TAs 🤓 💪
                     </p>
+                    <p>
+                      April 26th, 2024:
+                      New updates! With:
+                      A nice summary of all the branches that are deployed
+                      A clear list of errors in book building process
+                      Option to select which branch should remove chapter you don't want students to see
+                    </p>
+                    
                     <div class="btn-box">
-                      <a href="https://github.com/orgs/TeachBooks/discussions" class="btn1">
-                        <i class="fa fa-github" aria-hidden="true"> </i> GitHub Discussions
-                      </a>
-                    </div>
-                    <div class="btn-box">
-                      <a href="https://teams.microsoft.com/l/team/19%3Ah9-uRcP_yYauh-VuoPFozJVUvHVOB4a0mz1ZWvh4q4Q1%40thread.tacv2/conversations?groupId=3e88c1f3-4a4f-483a-a366-7e617de9ba99&tenantId=096e524d-6929-4030-8cd3-8ab42de0887b" class="btn1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-microsoft-teams" viewBox="0 0 16 16">
-                          <path d="M9.186 4.797a2.42 2.42 0 1 0-2.86-2.448h1.178c.929 0 1.682.753 1.682 1.682zm-4.295 7.738h2.613c.929 0 1.682-.753 1.682-1.682V5.58h2.783a.7.7 0 0 1 .682.716v4.294a4.197 4.197 0 0 1-4.093 4.293c-1.618-.04-3-.99-3.667-2.35Zm10.737-9.372a1.674 1.674 0 1 1-3.349 0 1.674 1.674 0 0 1 3.349 0m-2.238 9.488-.12-.002a5.2 5.2 0 0 0 .381-2.07V6.306a1.7 1.7 0 0 0-.15-.725h1.792c.39 0 .707.317.707.707v3.765a2.6 2.6 0 0 1-2.598 2.598z"/>
-                          <path d="M.682 3.349h6.822c.377 0 .682.305.682.682v6.822a.68.68 0 0 1-.682.682H.682A.68.68 0 0 1 0 10.853V4.03c0-.377.305-.682.682-.682Zm5.206 2.596v-.72h-3.59v.72h1.357V9.66h.87V5.945z"/>
-                        </svg> TU Delft Open Interactive Textbooks Community
+                      <a href="https://github.com/TeachBooks/deploy-book-workflow" class="btn1">
+                        <i class="fa fa-github" aria-hidden="true"> </i> GitHub workflow
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="images/teachers.jpg" alt="teachers">
+                    <img src="https://github.com/TeachBooks/template/raw/main/figures/action.png" alt="workflow">
                   </div>
                 </div>
               </div>
@@ -176,23 +186,42 @@
                 <div class="col-md-6 ">
                   <div class="detail-box">
                     <h1>
-                      Software<br>
-                      Collection
+                      Share content<br>
+                      between books
                     </h1>
                     <p>
-                      We collect a suite of existing open-source software and custom tools developed by our TA's to provide a reliable book-writing and interactive experience.
+                      April 18th 2024:
+                      Hi Open Interactive Textbooks Community,
+                      
+                      Here I am again 😀 presenting our newest feature: share content between books 📘↔️📕!
+                      
+                      With our growing stock of books we got the question from Oriol Colomes Gene on how to share content between books, which boils down to sharing source code in between Git repositories (but specifically for books). Caspar Jungbacker implemented this using <code>git submodules</code> and we developed an example and documentation for it in our
+                      <a href="https://teachbooks.tudelft.nl/jupyter-book-manual/external/Nested-Books/README.html"> manual </a>. Actually, this book in the manual is actually the readme of the example git repository which is included into the book using the exact same workflow it describes🤯!
+                      
+                      We think this feature is very valuable and are using it in other books now already! It's an elegant feature, but requires a bit more experience with Git 🤓 (user type 4-5 for those familiar with our manual). However, for those of you who hate using the command line (like me 🤝), GitHub desktop is remarkably helpful with these submodules.
+                      
+                      Looking forward to your thoughts again!
+                      
+                      Kind regards,
+                      
+                      Tom van Woudenberg
+                    </p>
+                    <p>
+                      PS. Actually our TA Caspar Jungbacker 💪 created this a few months ago but we were to busy doing other stuff that we never properly tested it on both GitHub and GitLab and didn't write extensive documentation on it 🙈. One of our other colleagues Iuri Barcelos Carneiro M Da R was already using it quite extensively but was too busy too share his finding 😒😉.... But it's exam period, so there was time enough to throw some attention at it 🤭.
+                    </p>
+                    <p>
+                      PPS. Curious for our next feature... have a look at the Teachbook GitHub group https://github.com/TeachBooks to see if you can find our upcoming feature! Or maybe you have ideas as well, please share them! 
                     </p>
                     <div class="btn-box">
-                      <a href="https://teachbooks.tudelft.nl/jupyter-book-manual/intro.html" class="btn1">
-                        Read the Manual
-                        <br><i class="fa fa-exclamation-triangle" aria-hidden="true"></i><em>Updates: Spring 2024!</em>
+                      <a href="https://github.com/TeachBooks/Nested-Books" class="btn1">
+                        <i class="fa fa-github" aria-hidden="true"> </i> Nested books
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="images/software.jpg" alt="Software">
+                    <img src="https://github.com/TeachBooks/Nested-Books/raw/main/figures/GitHub_desktop_commit.png" alt="Software">
                   </div>
                 </div>
               </div>
@@ -204,36 +233,24 @@
                 <div class="col-md-6 ">
                   <div class="detail-box">
                     <h1>
-                      Technical <br>
-                      Support
+                      HTML/Javascript <br>
+                      in manual
                     </h1>
                     <p>
-                      Don't know where to start? Contact us at TeachBooks@tudelft.nl and we can help you create an interactive textbook! Or ask us a question on the TU Delft Open Interactive Textbooks Community Teams page, or GitHub Discussions!
-                      <!-- <br>If you are interested in publishing, take a look at the <a href="https://textbooks.open.tudelft.nl/textbooks/catalog/category/interactive" target="_blank">Delft Library's excellent website</a>. -->
+                      Hi Collaboration Corner,
+                      Look what Max Ramgraber made!
+                      <a href="https://teachbooks.tudelft.nl/jupyter-book-manual/features/HTML_javascript.html"> A tutorial </a> on how to embed existing or custom HTML/javascript elements for the smoothest interactive element you've ever seen in a TeachBook!
                     </p>
                     <div class="btn-box">
-                      <a href="mailto:TeachBooks@tudelft.nl" class="btn1">
-                        <i class="fa fa-envelope" aria-hidden="true"> </i> Contact us
-                      </a>
-                    </div>
-                    <div class="btn-box">
-                      <a href="https://teams.microsoft.com/l/team/19%3Ah9-uRcP_yYauh-VuoPFozJVUvHVOB4a0mz1ZWvh4q4Q1%40thread.tacv2/conversations?groupId=3e88c1f3-4a4f-483a-a366-7e617de9ba99&tenantId=096e524d-6929-4030-8cd3-8ab42de0887b" class="btn1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-microsoft-teams" viewBox="0 0 16 16">
-                          <path d="M9.186 4.797a2.42 2.42 0 1 0-2.86-2.448h1.178c.929 0 1.682.753 1.682 1.682zm-4.295 7.738h2.613c.929 0 1.682-.753 1.682-1.682V5.58h2.783a.7.7 0 0 1 .682.716v4.294a4.197 4.197 0 0 1-4.093 4.293c-1.618-.04-3-.99-3.667-2.35Zm10.737-9.372a1.674 1.674 0 1 1-3.349 0 1.674 1.674 0 0 1 3.349 0m-2.238 9.488-.12-.002a5.2 5.2 0 0 0 .381-2.07V6.306a1.7 1.7 0 0 0-.15-.725h1.792c.39 0 .707.317.707.707v3.765a2.6 2.6 0 0 1-2.598 2.598z"/>
-                          <path d="M.682 3.349h6.822c.377 0 .682.305.682.682v6.822a.68.68 0 0 1-.682.682H.682A.68.68 0 0 1 0 10.853V4.03c0-.377.305-.682.682-.682Zm5.206 2.596v-.72h-3.59v.72h1.357V9.66h.87V5.945z"/>
-                        </svg> TU Delft Open Interactive Textbooks Community
-                      </a>
-                    </div>
-                    <div class="btn-box">
-                      <a href="https://github.com/orgs/TeachBooks/discussions" class="btn1">
-                        <i class="fa fa-github" aria-hidden="true"> </i> GitHub Discussions
+                      <a href="https://teachbooks.tudelft.nl/jupyter-book-manual/features/HTML_javascript.html" class="btn1">
+                        Manual
                       </a>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="images/support.jpg" alt="Support">
+                    <img src="images/HTML-javascript.png" alt="HTML/Javascript tutorial">
                   </div>
                 </div>
               </div>
