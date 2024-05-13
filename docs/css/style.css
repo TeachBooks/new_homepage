@@ -284,6 +284,14 @@ a:focus {
   color: #ffffff;
 }
 
+.slider_section .detail-box h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
 .slider_section .detail-box p {
   color: #fefefe;
   font-size: 14px;
