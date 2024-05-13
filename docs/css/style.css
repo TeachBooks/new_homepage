@@ -65,6 +65,42 @@ body {
   text-align: center;
 }
 
+.heading_container_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.heading_container_top h2 {
+  position: relative;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.heading_container_top h2 span {
+  color: #00bbf0;
+}
+
+.heading_container_top p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.heading_container_top.heading_center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
 a,
 a:hover,
 a:focus {
@@ -684,6 +720,12 @@ a:focus {
 
 /*team section end*/
 /* client section start */
+
+.client_section {
+  background-color: #00204a;
+  color: #ffffff;
+}
+
 .client_section .heading_container {
   margin-bottom: 30px;
 }
@@ -742,15 +784,26 @@ a:focus {
 }
 
 .client_section .box .detail-box {
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+  padding: 35px 0 0 0;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-transition: all .1s;
+  transition: all .1s;
+  margin-top: 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#002759), to(#002b64));
+  background: linear-gradient(to bottom, #002759, #002b64);
   padding: 75px 25px 25px 25px;
 }
 
 .client_section .box .detail-box i {
-  color: #00204a;
+  color: #ffffff;
   margin-bottom: 10px;
+}
+
+.client_section .box .detail-box h6 {
+  color: #00bbf0;
+  font-weight: 600;
+  position: relative;
 }
 
 .client_section .owl-carousel .owl-nav {
@@ -767,8 +820,8 @@ a:focus {
 .client_section .owl-carousel .owl-nav .owl-next {
   width: 55px;
   height: 55px;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #002b64;
+  color: #ffffff;
   outline: none;
   bottom: 0px;
   font-size: 24px;
@@ -778,7 +831,7 @@ a:focus {
 
 .client_section .owl-carousel .owl-nav .owl-prev:hover,
 .client_section .owl-carousel .owl-nav .owl-next:hover {
-  color: #00204a;
+  color:  #00bbf0;
 }
 
 /* client section end */
