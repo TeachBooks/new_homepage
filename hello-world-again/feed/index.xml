@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Comments on: Sample Page	</title>
-	<atom:link href="https://github.com/TeachBooks/new_homepage/sample-page/feed/" rel="self" type="application/rss+xml" />
-	<link>https://github.com/TeachBooks/new_homepage/</link>
+	Comments on: Hello world again!	</title>
+	<atom:link href="/new_homepage/hello-world-again/feed/" rel="self" type="application/rss+xml" />
+	<link>/new_homepage/hello-world-again/</link>
 	<description></description>
-	<lastBuildDate>Wed, 30 Oct 2024 02:01:40 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 13 Nov 2024 15:18:46 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.6.2</generator>
+	<generator>https://wordpress.org/?v=6.7</generator>
 </channel>
 </rss>

@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>homepage</title>
-	<atom:link href="/new_homepage/feed/" rel="self" type="application/rss+xml" />
+	<title>Tom van Woudenberg &#8211; homepage</title>
+	<atom:link href="/new_homepage/author/tom/feed/" rel="self" type="application/rss+xml" />
 	<link>/new_homepage/</link>
 	<description></description>
 	<lastBuildDate>Wed, 13 Nov 2024 15:18:46 +0000</lastBuildDate>
@@ -40,26 +40,6 @@
 					
 					<wfw:commentRss>/new_homepage/hello-world-again/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Hello world!</title>
-		<link>/new_homepage/hello-world/</link>
-					<comments>/new_homepage/hello-world/#comments</comments>
-		
-		<dc:creator><![CDATA[k.gatt]]></dc:creator>
-		<pubDate>Wed, 30 Oct 2024 02:01:40 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">/new_homepage/?p=1</guid>
-
-					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
-										<content:encoded><![CDATA[
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>/new_homepage/hello-world/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
 		
 		
 			</item>
