@@ -12,7 +12,7 @@
 	<atom:link href="/new_homepage/author/tom/feed/" rel="self" type="application/rss+xml" />
 	<link>/new_homepage/</link>
 	<description></description>
-	<lastBuildDate>Wed, 13 Nov 2024 15:18:46 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 13 Nov 2024 16:55:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -30,7 +30,6 @@
 	<item>
 		<title>Hello world again!</title>
 		<link>/new_homepage/hello-world-again/</link>
-					<comments>/new_homepage/hello-world-again/#respond</comments>
 		
 		<dc:creator><![CDATA[Tom van Woudenberg]]></dc:creator>
 		<pubDate>Wed, 13 Nov 2024 15:18:45 +0000</pubDate>
@@ -46,8 +45,6 @@
 <figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="1024" src="/new_homepage/wp-content/uploads/2024/11/TB_logo-1024x1024.png" alt="" class="wp-image-10" srcset="/new_homepage/wp-content/uploads/2024/11/TB_logo-1024x1024.png 1024w, /new_homepage/wp-content/uploads/2024/11/TB_logo-300x300.png 300w, /new_homepage/wp-content/uploads/2024/11/TB_logo-150x150.png 150w, /new_homepage/wp-content/uploads/2024/11/TB_logo-768x768.png 768w, /new_homepage/wp-content/uploads/2024/11/TB_logo-1536x1536.png 1536w, /new_homepage/wp-content/uploads/2024/11/TB_logo-2048x2048.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/new_homepage/hello-world-again/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
