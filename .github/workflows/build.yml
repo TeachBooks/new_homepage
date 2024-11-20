@@ -1,0 +1,185 @@
+name: deploy-book
+
+
+on:
+  workflow_call:
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  # Relevant and required for Private repositories only!
+  # 1. First, create a Personal Access Token (Classic) as in https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+  #    with at least the scopes `repo`, `read:org`, and `gist`.
+  # 2. Then, make a secret GH_PAT in `Settings` > `Secrets and variables` > `Actions` > `Repository secrets` or `Organization secrets`.
+  #    Copy & paste the PAT from step 1.
+  #
+  # Clarifications on naming:
+  # GH_TOKEN is the name that the `gh` CLI utility expects.
+  # GITHUB_TOKEN is a special automatically assigned token described here https://docs.github.com/en/actions/security-guides/automatic-token-authentication
+  GH_TOKEN: ${{ secrets.GH_PAT != '' && secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+  
+  # Branch shown on root (eg. teachbooks.github.io/template/).
+  # `main` as primary by default, advised to use branch with most recent content.
+  PRIMARY_BRANCH: ${{ 'wordpress' }}
+
+jobs:
+  get-branches:
+    runs-on: ubuntu-latest
+    outputs:
+      branches: ${{ steps.set-branches.outputs.branches }}
+    permissions:
+      contents: read
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - id: set-branches
+      name: Set branches
+      run: |
+        # If all (*), query all remote branches
+        # If not, read from env var
+        branches=$(git branch -r | sed 's,\s*origin/,,g')
+
+        # Convert to a JSON list
+        branches=$(echo "$branches" | jq -Rn '[inputs]')
+        echo "branches=$(echo $branches)" >> "$GITHUB_OUTPUT"
+
+
+  build-websites:
+    runs-on: ubuntu-latest
+    needs: get-branches
+    if: ${{ needs.get-branches.outputs.branches != '[]' }}
+    permissions:
+      pages: write
+      id-token: write
+      contents: read
+    strategy:
+      # If one branch fails, we may still want to deploy the other
+      fail-fast: false
+      matrix:
+        branch: ${{ fromJson(needs.get-branches.outputs.branches) }}
+    steps:
+    - name: Checkout to branch
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ matrix.branch }}
+        submodules: 'true'
+
+    - name: Upload the HTML as an artifact
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ matrix.branch }}
+        path: "."
+
+    - name: Clean branch name of disallowed characters
+      if: always()
+      run: |
+        echo "MATRIX_BRANCH_NAME_CLEAN=$(echo ${{ matrix.branch }} | tr '/":<>|*?\/\\' '-')" >> $GITHUB_ENV
+
+  deploy-websites:
+    # Run after build-books, even if it failed
+    if: always()
+    needs:
+    - get-branches
+    - build-websites
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+      contents: read
+    env:
+      BRANCHES: ${{ needs.get-branches.outputs.branches }}
+    steps:
+    - uses: actions/checkout@v4
+
+    - run: |
+        mkdir final/
+
+    - name: Download all artifacts
+      uses: actions/download-artifact@v4
+      with:
+        path: "final/"
+
+    - name: Copy primary book to root, fail if names conflict
+      timeout-minutes: 1
+      run: |
+        GLOBIGNORE=".:.."
+        # -i leads to a prompt in case of conflict, => a timeout
+        if [ -d final/"$PRIMARY_BRANCH" ]; then
+          cp -irv final/"$PRIMARY_BRANCH"/* final/
+        fi
+
+    - name: Include overview summary
+      run: |
+        # Restore "raw" branch names
+        echo '${{ needs.get-branches.outputs.branches }}' | jq -r '.[]' > raw.txt
+        {
+          # Display raw/clean branch name versions in Actions Summary
+          echo "### Branches deployed"
+          ## Table headers
+          echo "| Branch :tanabata_tree: | Link :link: |"
+          echo "| :--- | :--- |"
+        } >> summary.md
+
+        ## Fetch the GH Pages URL
+        # https://stackoverflow.com/a/76354104
+        url=$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.html_url')
+
+        # Clean branch names
+        cat raw.txt | tr '/":<>|*?\/\\' '-' > clean.txt
+        paste -d ';' raw.txt clean.txt > pasted.txt
+        cat pasted.txt |
+        while IFS=';' read -r raw clean status; do
+          echo "| $raw | <$url$clean> | " >> summary.md
+        done
+
+        {
+          echo
+          echo '#### Primary book at root'
+          echo "The book at the website root <$url> is from the primary branch \\\`$PRIMARY_BRANCH\\\`."
+        } >> summary.md
+
+    - name: Upload final Pages artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: "final/"
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
+
+    # source: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#example-of-a-multiline-string
+    - name: Output summary
+      id: output-summary
+      run: |
+        {
+          echo 'summary<<EOF'
+          cat summary.md
+          echo EOF
+        } >> "$GITHUB_OUTPUT"
+
+  summarize:
+    if: always()
+    needs:
+      - get-branches
+      - deploy-websites
+    runs-on: ubuntu-latest
+    steps:
+    - name: Summarize
+      run: |
+
+        echo "${{ needs.deploy-websites.outputs.summary }}" >> $GITHUB_STEP_SUMMARY
+
+        if [ "${{ needs.deploy-websites.outputs.summary }}" == "" ]; then
+          {
+            echo "An unknown error has occurred, cannot display summary.
+          } >> $GITHUB_STEP_SUMMARY
+        fi
+
+
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
