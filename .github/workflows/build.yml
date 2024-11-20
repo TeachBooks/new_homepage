@@ -9,6 +9,7 @@ on:
 
 env:
   PRIMARY_BRANCH: ${{ 'wordpress' }}
+  GH_TOKEN: ${{ github.token }}
 
 jobs:
   get-branches:
