@@ -128,8 +128,8 @@ jobs:
 
         {
           echo
-          echo '#### Primary book at root'
-          echo "The book at the website root <$url> is from the primary branch \\\`$PRIMARY_BRANCH\\\`."
+          echo '#### Primary website at root'
+          echo "The website at the website root <$url> is from the primary branch \\\`$PRIMARY_BRANCH\\\`."
         } >> summary.md
 
     - name: Upload final Pages artifact
@@ -160,14 +160,7 @@ jobs:
     steps:
     - name: Summarize
       run: |
-
         echo "${{ needs.deploy-websites.outputs.summary }}" >> $GITHUB_STEP_SUMMARY
-
-        if [ "${{ needs.deploy-websites.outputs.summary }}" == "" ]; then
-          {
-            echo "An unknown error has occurred, cannot display summary.
-          } >> $GITHUB_STEP_SUMMARY
-        fi
 
 
 
