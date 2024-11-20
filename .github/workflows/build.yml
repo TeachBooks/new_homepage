@@ -1,5 +1,6 @@
 name: deploy-website
 
+#taken from https://github.com/TeachBooks/deploy-book-workflow
 
 on:
   push:
@@ -7,20 +8,6 @@ on:
     - '**'
 
 env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  # Relevant and required for Private repositories only!
-  # 1. First, create a Personal Access Token (Classic) as in https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
-  #    with at least the scopes `repo`, `read:org`, and `gist`.
-  # 2. Then, make a secret GH_PAT in `Settings` > `Secrets and variables` > `Actions` > `Repository secrets` or `Organization secrets`.
-  #    Copy & paste the PAT from step 1.
-  #
-  # Clarifications on naming:
-  # GH_TOKEN is the name that the `gh` CLI utility expects.
-  # GITHUB_TOKEN is a special automatically assigned token described here https://docs.github.com/en/actions/security-guides/automatic-token-authentication
-  GH_TOKEN: ${{ secrets.GH_PAT != '' && secrets.GH_PAT || secrets.GITHUB_TOKEN }}
-  
-  # Branch shown on root (eg. teachbooks.github.io/template/).
-  # `main` as primary by default, advised to use branch with most recent content.
   PRIMARY_BRANCH: ${{ 'wordpress' }}
 
 jobs:
@@ -86,6 +73,8 @@ jobs:
     - get-branches
     - build-websites
     runs-on: ubuntu-latest
+    outputs:
+      summary: ${{ steps.output-summary.outputs.summary }}
     permissions:
       pages: write
       id-token: write
