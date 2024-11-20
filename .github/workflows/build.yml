@@ -6,6 +6,7 @@ on:
   push:
     branches:
     - '**'
+  workflow_dispatch:
 
 env:
   PRIMARY_BRANCH: ${{ 'main' }}
