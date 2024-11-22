@@ -8,10 +8,12 @@ This guide covers how to:
 
 ## Prerequisites  
 
+**Ensure you have the following prerequisites in place before proceeding to the next sections on creating or collaborating on a WordPress website linked to GitHub.**  
+
 ### 1. Install Git Locally  
 #### 1.1 Check if Git is Installed  
 1. Open your terminal (Mac) or command prompt (Windows).  
-2. Run: git --version.  
+2. Run: `git --version`.  
    - If installed, you’ll see the version number.  
    - If not, proceed to the next step.  
 
@@ -30,23 +32,24 @@ This guide covers how to:
 
 ## Part 1: Setting Up a New WordPress Website Integrated with GitHub  
 
+**Follow this section if you are starting a new website that you want to host on GitHub.**  
+
 ### Step 1: Create a GitHub Repository  
-1. Log in to GitHub and create a new repository (e.g., new_homepage).  
+1. Log in to GitHub and create a new repository (e.g., `new_homepage`).  
 2. This repository will host your static WordPress site.  
 
 ### Step 2: Create a WordPress Website  
 1. Open Local by Flywheel and select **Create New Site**.  
-2. Follow the prompts to set up your WordPress site (e.g., homepage_wordpress).  
+2. Follow the prompts to set up your WordPress site (e.g., `homepage_wordpress`).  
 3. Navigate to the site folder and run:  
-   
-bash  
-   git init
-  
+   ```bash  
+   git init  
+   ```  
    This initializes a local Git repository, enabling you to connect it to GitHub Desktop later.  
 
 ### Step 3: Connect GitHub with GitHub Desktop  
-1. Clone the **host repository** (e.g., new_homepage) to your local machine using GitHub Desktop.  
-2. Publish the **source repository** (e.g., homepage_wordpress) by linking the Local site folder to GitHub Desktop.  
+1. Clone the **host repository** (e.g., `new_homepage`) to your local machine using GitHub Desktop.  
+2. Publish the **source repository** (e.g., `homepage_wordpress`) by linking the Local site folder to GitHub Desktop.  
 
 ### Step 4: Convert WordPress to Static HTML  
 #### 4.1 Install and Configure Simply Static Plugin  
@@ -56,7 +59,7 @@ bash
 4. Configure settings under **Simply Static**:  
    - **General Settings**:  
      - Replace URLs: Set to **Relative Path**.  
-     - Path: Specify the path of the host repository (e.g., /new_homepage).  
+     - Path: Specify the path of the host repository (e.g., `/new_homepage`).  
      - Enable **Force URL Replacements**.  
    - **Deploy Settings**:  
      - Deployment Method: **Local Directory**.  
@@ -78,6 +81,8 @@ bash
 
 ## Part 2: Collaborating on an Existing Linked Website  
 
+**Follow this section if you want to collaborate on a WordPress website that is hosted on GitHub.**  
+
 ### Step 1: Export and Import the Website  
 1. In Local, click the three dots next to the site name and select **Export**.  
 2. Share the ZIP file with collaborators.  
@@ -86,7 +91,7 @@ bash
 ### Step 2: Connect GitHub with GitHub Desktop  
 1. Clone the host repository to the collaborator's GitHub Desktop.  
 2. For the source repository:  
-   - Navigate to the imported Local site folder, which already contains a .git file.  
+   - Navigate to the imported Local site folder, which already contains a `.git` file.  
    - Open this repository in GitHub Desktop to sync it with the source repository on GitHub.  
 
 ### Step 3: Convert WordPress to Static HTML and Push Changes  
@@ -94,4 +99,4 @@ bash
 
 ---
 
-By following these steps, you’ll ensure a smooth setup and collaborative workflow for a WordPress site integrated with GitHub.
+By following these steps, you’ll ensure a smooth setup and collaborative workflow for a WordPress site integrated with GitHub.  
