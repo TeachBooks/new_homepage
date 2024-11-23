@@ -34,9 +34,10 @@ This guide covers how to:
 
 **Follow this section if you are starting a new website that you want to host on GitHub.**  
 
-### Step 1: Create a GitHub Repository  
-1. Log in to GitHub and create a new repository (e.g., `new_homepage`).  
-2. This repository will host your static WordPress site.  
+### Step 1: Create GitHub Repositories  
+1. Log in to GitHub and create two repositories:  
+   - **Host Repository:** This repository will store the static version of your WordPress site (e.g., `new_homepage`).  
+   - **Source Repository:** This repository will store the source files of your WordPress site (e.g., `homepage_wordpress`).  
 
 ### Step 2: Create a WordPress Website  
 1. Open Local by Flywheel and select **Create New Site**.  
@@ -53,55 +54,20 @@ This guide covers how to:
 </div>
 
 
-### Step 3: Navigate to the Site Folder and Initialize Git  
-1. Locate the site folder created by Local by Flywheel:  
-   - Open Local by Flywheel.  
-   - Find your site in the list and select the **Site folder** button found below the site title.   
-
-<div style="text-align: center;">
-    <img src="documentation_images/1_3_1.png" alt="1_3_1" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
-</div>
-
-
-2. Open Git Bash in the Site Folder:  
-   - Right-click inside the site folder in the file explorer.  
-   - Select **Open Git Bash Here** from the context menu.  
-
-<div style="text-align: center;">
-    <img src="documentation_images/1_3_2.png" alt="1_3_2" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
-</div>
-
-3. Initialize Git:  
-   - In the Git Bash window that opens, type the following command:  
-     ```
-     git init  
-     ```  
-   - Press **Enter**. This initializes a local Git repository, enabling you to connect the site to GitHub Desktop later.  
-
-<div style="text-align: center;">
-    <img src="documentation_images/1_3_3.png" alt="1_3_3" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
-</div>
-
-### Step 4: Connect GitHub with GitHub Desktop  
-1. Clone the **host repository** (e.g., `new_homepage`) to your local machine using GitHub Desktop.  
-   - Select **File > Clone repository** .  
-   - Insert the URL of the repository you want to clone, and define the local path.  
+### Step 3: Connect GitHub with GitHub Desktop  
+1. Clone the **Host Repository** (e.g., `new_homepage`) to your local machine:  
+   - Open GitHub Desktop.  
+   - Select **File > Clone Repository**.  
+   - Insert the URL of the host repository and define the local path.  
 
 <div style="text-align: center;">
     <img src="documentation_images/1_4_1.png" alt="1_4_1" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
-</div>
+</div>  
 
-2. Publish the **source repository** (e.g., `homepage_wordpress`) by linking the Local site folder to GitHub Desktop. 
-   - Select **File > Add local repository** .  
-   - Link the Local site folder as your local path and add the repository.
-   - Publish the repository to GitHub. 
+2. Clone the **Source Repository** (e.g., `homepage_wordpress`) similarly to step 1.  
 
-<div style="text-align: center;">
-    <img src="documentation_images/1_4_2.png" alt="1_4_2" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
-</div>
-
-### Step 5: Convert WordPress to Static HTML  
-#### 5.1 Install and Configure Simply Static Plugin  
+### Step 4: Convert WordPress to Static HTML  
+#### 4.1 Install and Configure Simply Static Plugin  
 1. In Local, access **WP Admin** and log in.  
 2. Go to **Plugins → Add New** and search for "Simply Static".  
 3. Install and activate the plugin.  
@@ -127,7 +93,7 @@ This guide covers how to:
     <img src="documentation_images/1_5_3.png" alt="1_5_3" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
 </div> 
 
-#### 5.2 Generate Static Files  
+#### 4.2 Generate Static Files  
 1. Go to **Simply Static → Generate**.  
 2. Click **Generate Static Files** to export the site as static HTML with rewritten URLs.  
 
@@ -135,14 +101,34 @@ This guide covers how to:
     <img src="documentation_images/1_5_4.png" alt="1_5_4" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
 </div> 
 
-### Step 6: Push Static HTML to GitHub  
-1. Open GitHub Desktop.  
-2. Push changes from the local repository to the host repository by clicking **Push Origin**.  
-3. Stop the Local site from the 'Stop site' button at the top-right corner on Local before pushing or pulling changes to avoid conflicts.  
+### Step 5: Copy Local Site Folder to Repository
+1. **Locate the Local Site Folder:**  
+   - Open **Local by Flywheel**.  
+   - Find your site in the list and click the **Site Folder** button located below the site title.  
 
-<div style="text-align: center;">
-    <img src="documentation_images/1_6_1.png" alt="1_6_1" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
-</div> 
+   <div style="text-align: center;">
+       <img src="documentation_images/1_3_1.png" alt="1_3_1" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
+   </div>  
+
+   - This folder contains the changes you made on WPAdmin and it is necessary to push these updates to your online repository.  
+
+2. **Copy Local Site Folder Files to the GitHub Repository Path:**  
+   - Copy all the files from the **Local Site Folder** into the local source repository folder (e.g., `homepage_wordpress`) set up in GitHub Desktop.  
+
+
+### Step 6: Push Static HTML to GitHub  
+1. **Push Changes to GitHub:**  
+   - Open **GitHub Desktop**.  
+   - Verify that in both the source and host repositories the changes made are visible.    
+   - Push the changes to the online repositories by committing channes and by clicking **Push Origin**.  
+
+2. **Stop the Local Site:**  
+   - Before pushing or pulling any changes, stop the Local site to avoid conflicts.  
+   - Click the **Stop site** button located in the top-right corner in Local by Flywheel.  
+
+   <div style="text-align: center;">
+       <img src="documentation_images/1_6_1.png" alt="1_6_1" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
+   </div>  
 
 ### Step 7: Repeat for Updates  
 - For updates, repeat the process of generating static files and pushing them to GitHub.  
@@ -167,11 +153,11 @@ This guide covers how to:
 1. Clone the host repository to the collaborator's GitHub Desktop, as done in **Part 1: Step 4**.  
 2. For the source repository:  
    - Navigate to the imported Local site folder, which already contains a `.git` file.  
-   - Add this repository locally in GitHub Desktop to sync it with the source repository on GitHub, similar to what was done in **Part 1: Step 4**.  
+   - Add this repository locally in GitHub Desktop to sync it with the source repository on GitHub.
 
 
 ### Step 3: Convert WordPress to Static HTML and Push Changes  
-- Follow **Part 1: Steps 5 and 6** to generate static files and push changes to GitHub.  
+- Follow **Part 1: Steps 4 and 6** to generate static files and push changes to GitHub. Since the imported ZIP file is already linked to the GitHub repository, you can skip **Part 1: Step 5** (Copy Local Site Folder to Repository). 
 
 ---  
 
