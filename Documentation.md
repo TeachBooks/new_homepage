@@ -46,12 +46,13 @@ This guide covers how to:
 - Web Server: Choose Apache 2.4.43.
 - Database: Choose MySQL 8.0.16.
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="documentation_images/1_2_1.png" alt="1_2_1" style="width: 30%; border: 2px solid #ccc; border-radius: 5px;">
-    <img src="documentation_images/1_2_2.png" alt="1_2_2" style="width: 30%; border: 2px solid #ccc; border-radius: 5px;">
-    <img src="documentation_images/1_2_3.png" alt="1_2_3" style="width: 30%; border: 2px solid #ccc; border-radius: 5px;">
-    <p style="margin-top: 10px; font-style: italic;">Create a WordPress website in Local.</p>
+<div style="text-align: center;">
+  <img src="documentation_images/1_2_1.png" alt="1_2_1" width="70%">
+  <img src="documentation_images/1_2_2.png" alt="1_2_2" width="70%">
+  <img src="documentation_images/1_2_3.png" alt="1_2_3" width="70%">
+  <p>Create a WordPress website in Local.</p>
 </div>
+
 
 ### Step 3: Navigate to the Site Folder and Initialize Git  
 1. Locate the site folder created by Local by Flywheel:  
