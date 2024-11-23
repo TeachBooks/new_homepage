@@ -50,7 +50,6 @@ This guide covers how to:
   <img src="documentation_images/1_2_1.png" alt="1_2_1" width="70%">
   <img src="documentation_images/1_2_2.png" alt="1_2_2" width="70%">
   <img src="documentation_images/1_2_3.png" alt="1_2_3" width="70%">
-  <p>Create a WordPress website in Local.</p>
 </div>
 
 
@@ -61,7 +60,6 @@ This guide covers how to:
 
 <div style="text-align: center;">
     <img src="documentation_images/1_3_1.png" alt="1_3_1" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
-    <p style="margin-top: 10px; font-style: italic;">Navigate to the site folder.</p>
 </div>
 
 
@@ -71,7 +69,6 @@ This guide covers how to:
 
 <div style="text-align: center;">
     <img src="documentation_images/1_3_2.png" alt="1_3_2" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
-    <p style="margin-top: 10px; font-style: italic;">Open Git Bash.</p>
 </div>
 
 3. Initialize Git:  
@@ -83,7 +80,6 @@ This guide covers how to:
 
 <div style="text-align: center;">
     <img src="documentation_images/1_3_3.png" alt="1_3_3" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
-    <p style="margin-top: 10px; font-style: italic;">Initialize Git.</p>
 </div>
 
 ### Step 4: Connect GitHub with GitHub Desktop  
@@ -93,7 +89,6 @@ This guide covers how to:
 
 <div style="text-align: center;">
     <img src="documentation_images/1_4_1.png" alt="1_4_1" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
-    <p style="margin-top: 10px; font-style: italic;">Clone host repository.</p>
 </div>
 
 2. Publish the **source repository** (e.g., `homepage_wordpress`) by linking the Local site folder to GitHub Desktop. 
@@ -103,7 +98,6 @@ This guide covers how to:
 
 <div style="text-align: center;">
     <img src="documentation_images/1_4_2.png" alt="1_4_2" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
-    <p style="margin-top: 10px; font-style: italic;">Clone host repository.</p>
 </div>
 
 ### Step 5: Convert WordPress to Static HTML  
@@ -114,7 +108,6 @@ This guide covers how to:
 
 <div style="text-align: center;">
     <img src="documentation_images/1_5_1.png" alt="1_5_1" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
-    <p style="margin-top: 10px; font-style: italic;">Install Simply Static Plugin.</p>
 </div> 
 
 4. Configure settings under **Simply Static**:  
@@ -126,19 +119,20 @@ This guide covers how to:
      - Deployment Method: **Local Directory**.  
      - Path: Specify the local path to the cloned host repository.  
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="documentation_images/1_5_1.png" alt="1_5_1" style="width: 30%; border: 2px solid #ccc; border-radius: 5px;">
-    <img src="documentation_images/1_5_2.png" alt="1_5_2" style="width: 30%; border: 2px solid #ccc; border-radius: 5px;">
-    <p style="margin-top: 10px; font-style: italic;">Configure Simply Static settings.</p>
-</div>
+<div style="text-align: center;">
+    <img src="documentation_images/1_5_2.png" alt="1_5_2" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
+</div> 
+
+<div style="text-align: center;">
+    <img src="documentation_images/1_5_3.png" alt="1_5_3" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
+</div> 
 
 #### 5.2 Generate Static Files  
 1. Go to **Simply Static → Generate**.  
 2. Click **Generate Static Files** to export the site as static HTML with rewritten URLs.  
 
 <div style="text-align: center;">
-    <img src="documentation_images/1_5_3.png" alt="1_5_3" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
-    <p style="margin-top: 10px; font-style: italic;">Generate static files.</p>
+    <img src="documentation_images/1_5_4.png" alt="1_5_4" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
 </div> 
 
 ### Step 6: Push Static HTML to GitHub  
@@ -148,7 +142,6 @@ This guide covers how to:
 
 <div style="text-align: center;">
     <img src="documentation_images/1_6_1.png" alt="1_6_1" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
-    <p style="margin-top: 10px; font-style: italic;">Stop site from Local before pushing or pulling changes.</p>
 </div> 
 
 ### Step 7: Repeat for Updates  
@@ -162,17 +155,23 @@ This guide covers how to:
 
 ### Step 1: Export and Import the Website  
 1. In Local, click the three dots next to the site name and select **Export**.  
+
+<div style="text-align: center;">
+    <img src="documentation_images/2_1_1.png" alt="2_1_1" style="width: 50%; border: 2px solid #ccc; border-radius: 5px;">
+</div> 
+
 2. Share the ZIP file with collaborators.  
 3. On the collaborator’s machine, drag the ZIP file into Local to import the site.  
 
 ### Step 2: Connect GitHub with GitHub Desktop  
-1. Clone the host repository to the collaborator's GitHub Desktop.  
+1. Clone the host repository to the collaborator's GitHub Desktop, as done in **Part 1: Step 4**.  
 2. For the source repository:  
    - Navigate to the imported Local site folder, which already contains a `.git` file.  
-   - Open this repository in GitHub Desktop to sync it with the source repository on GitHub.  
+   - Add this repository locally in GitHub Desktop to sync it with the source repository on GitHub, similar to what was done in **Part 1: Step 4**.  
+
 
 ### Step 3: Convert WordPress to Static HTML and Push Changes  
-- Follow **Steps 5 and 6** from the "Setting Up a New Website" section to generate static files and push changes to GitHub.  
+- Follow **Part 1: Steps 5 and 6** to generate static files and push changes to GitHub.  
 
 ---  
 
