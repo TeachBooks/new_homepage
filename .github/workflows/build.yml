@@ -61,7 +61,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.branch }}
-        path: "."
+        path: "website/"
 
     - name: Clean branch name of disallowed characters
       if: always()
