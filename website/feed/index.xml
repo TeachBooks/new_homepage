@@ -8,34 +8,52 @@
 	>
 
 <channel>
-	<title>homepage2</title>
-	<atom:link href="/new_homepage/feed/" rel="self" type="application/rss+xml" />
-	<link>/new_homepage/</link>
+	<title></title>
+	<atom:link href="new_homepage//feed/" rel="self" type="application/rss+xml" />
+	<link>new_homepage//</link>
 	<description></description>
-	<lastBuildDate>Mon, 18 Nov 2024 08:47:47 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 07 Dec 2024 08:14:58 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.7</generator>
-	<item>
-		<title>Hello world!</title>
-		<link>/new_homepage/hello-world/</link>
-					<comments>/new_homepage/hello-world/#comments</comments>
-		
-		<dc:creator><![CDATA[k.gatt]]></dc:creator>
-		<pubDate>Mon, 18 Nov 2024 08:47:47 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">/new_homepage/?p=1</guid>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
-					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
+<image>
+	<url>new_homepage//wp-content/uploads/2024/12/cropped-TB_favicon-32x32.png</url>
+	<title></title>
+	<link>new_homepage//</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>HTML/Javascript elements tutorial in manual</title>
+		<link>new_homepage//html-javascript-elements-tutorial-in-manual/</link>
+					<comments>new_homepage//html-javascript-elements-tutorial-in-manual/#respond</comments>
+		
+		<dc:creator><![CDATA[Tom van Woudenberg]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 08:10:00 +0000</pubDate>
+				<category><![CDATA[Manual]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[jupyterbook]]></category>
+		<category><![CDATA[manual]]></category>
+		<category><![CDATA[teachbooks]]></category>
+		<category><![CDATA[tutorial]]></category>
+		<guid isPermaLink="false">new_homepage//?p=13</guid>
+
+					<description><![CDATA[Hi there! Look what Max Ramgraber made! A tutorial on how to embed existing or custom HTML/javascript elements for the [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+<p>Hi there!</p>
+
+
+
+<p>Look what Max Ramgraber made! A <a href="https://teachbooks.io/manual/features/HTML_javascript.html" data-type="link" data-id="https://teachbooks.io/manual/features/HTML_javascript.html">tutorial</a> on how to embed existing or custom HTML/javascript elements for the smoothest interactive element you&#8217;ve ever seen in a TeachBook!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/new_homepage/hello-world/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
+					<wfw:commentRss>new_homepage//html-javascript-elements-tutorial-in-manual/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
 		
 		
 			</item>

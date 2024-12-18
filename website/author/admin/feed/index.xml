@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Tom van Woudenberg</title>
+	<atom:link href="new_homepage//author/admin/feed/" rel="self" type="application/rss+xml" />
+	<link>new_homepage//</link>
+	<description></description>
+	<lastBuildDate>Sat, 07 Dec 2024 08:14:58 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
+
+<image>
+	<url>new_homepage//wp-content/uploads/2024/12/cropped-TB_favicon-32x32.png</url>
+	<title>Tom van Woudenberg</title>
+	<link>new_homepage//</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>HTML/Javascript elements tutorial in manual</title>
+		<link>new_homepage//html-javascript-elements-tutorial-in-manual/</link>
+					<comments>new_homepage//html-javascript-elements-tutorial-in-manual/#respond</comments>
+		
+		<dc:creator><![CDATA[Tom van Woudenberg]]></dc:creator>
+		<pubDate>Wed, 27 Mar 2024 08:10:00 +0000</pubDate>
+				<category><![CDATA[Manual]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[jupyterbook]]></category>
+		<category><![CDATA[manual]]></category>
+		<category><![CDATA[teachbooks]]></category>
+		<category><![CDATA[tutorial]]></category>
+		<guid isPermaLink="false">new_homepage//?p=13</guid>
+
+					<description><![CDATA[Hi there! Look what Max Ramgraber made! A tutorial on how to embed existing or custom HTML/javascript elements for the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Hi there!</p>
+
+
+
+<p>Look what Max Ramgraber made! A <a href="https://teachbooks.io/manual/features/HTML_javascript.html" data-type="link" data-id="https://teachbooks.io/manual/features/HTML_javascript.html">tutorial</a> on how to embed existing or custom HTML/javascript elements for the smoothest interactive element you&#8217;ve ever seen in a TeachBook!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>new_homepage//html-javascript-elements-tutorial-in-manual/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
