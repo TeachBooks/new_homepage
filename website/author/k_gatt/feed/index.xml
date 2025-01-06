@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>k_gatt</title>
+	<title>k_gatt &#8211; TeachBooks</title>
 	<atom:link href="https://teachbooks.io/new_homepage/new_website/author/k_gatt/feed/" rel="self" type="application/rss+xml" />
 	<link>https://teachbooks.io/new_homepage/new_website/</link>
 	<description></description>
-	<lastBuildDate>Thu, 19 Dec 2024 18:33:52 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 23 Dec 2024 17:07:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,191 +22,14 @@
 
 <image>
 	<url>https://teachbooks.io/new_homepage/new_website/wp-content/uploads/2024/12/cropped-TB_favicon-32x32.png</url>
-	<title>k_gatt</title>
+	<title>k_gatt &#8211; TeachBooks</title>
 	<link>https://teachbooks.io/new_homepage/new_website/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
-		<title>TeachBooks Workshop Experience</title>
-		<link>https://teachbooks.io/new_homepage/new_website/teachbooks-workshop-experience/</link>
-					<comments>https://teachbooks.io/new_homepage/new_website/teachbooks-workshop-experience/#respond</comments>
-		
-		<dc:creator><![CDATA[k_gatt]]></dc:creator>
-		<pubDate>Thu, 19 Dec 2024 18:33:48 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">https://teachbooks.io/new_homepage/new_website/?p=1862</guid>
-
-					<description><![CDATA[Observations Collected by Robert, Tom and Julie after the session. Ideas for improving the workshop (activities) Consider more like 2 [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<h4 class="wp-block-heading">Observations</h4>
-
-
-
-<p>Collected by Robert, Tom and Julie after the session.</p>
-
-
-
-<ol class="wp-block-list">
-<li>No one followed the instructions (neither the 10 clicks nor the actual workshop exercises)</li>
-
-
-
-<li>Participants often asked a question or were stuck, then later discovered that the problem was not reading the instructions</li>
-
-
-
-<li>The pptx as used is a good basis.</li>
-
-
-
-<li>1 hour is definitely too short to get through everything.</li>
-
-
-
-<li>It is difficult to switch back and forth between several tabs</li>
-
-
-
-<li>After using template, the step to start with the exercises was not clear</li>
-
-
-
-<li>Directories in the book wasn&#8217;t clear</li>
-
-
-
-<li>First Actions run broke for nearly all participants</li>
-
-
-
-<li>Creation of GitHub account caused confusion</li>
-
-
-
-<li>Decision about private/public repo caused confusion</li>
-
-
-
-<li>Some participants were overwhelmed by the complexity (scope of workshop not clear to them in advance)</li>
-
-
-
-<li>Not clear for whom a TeachBook is best-suited (related to above point)</li>
-
-
-
-<li>Clearly two groups: one familiar with the tools (git, github, python), others not. No one seemed to be an &#8220;expert,&#8221; but some seemed to have experience using notebooks with experimental data collection (I/O data streams).</li>
-</ol>
-
-
-
-<h4 class="wp-block-heading">Ideas for improving the workshop (activities)</h4>
-
-
-
-<p>Consider more like 2 hours, including the pitch/introduction.</p>
-
-
-
-<p>Things to definitely do during the pitch/introduction:</p>
-
-
-
-<ul class="wp-block-list">
-<li>Explicitly point out the GitHub account creation considerations</li>
-
-
-
-<li>Explicitly point out the importance of creating public repositories for the workshop and encourage this to be their &#8220;default&#8221; behavior in the future</li>
-
-
-
-<li>Have participants self-identify their personal skill/experience level. Create pairs/small groups based on this and class size</li>
-
-
-
-<li>A demonstration of the 10 clicks (and have participants do it at the same time) as many early questions came from participants not reading/following the instructions (e.g., Actions setting not changed).</li>
-
-
-
-<li>Explicitly state how participants are expected to work in the remainder of the workshop (e.g., number of tabs to use, etc.)</li>
-</ul>
-
-
-
-<p>A paired setup with 2 screens could be very beneficial, as it would allow one screen to show instructions, the other for carrying out the steps. Use the self-identified skill/experience of participants to create pairs.</p>
-
-
-
-<p>When creating a repo clarify that public is better, but also indicate what can change (or not) at a later moment. Would be worthwhile to emphasize the importance of keeping things open and CC BY in general.</p>
-
-
-
-<h4 class="wp-block-heading">Ideas for improving the content</h4>
-
-
-
-<p>Overall the instructions should be made more motivating. Right now they are factually correct but just a long list of text. Boring!</p>
-
-
-
-<p>These were common issues that should be included as exercises in the template book:</p>
-
-
-
-<ul class="wp-block-list">
-<li>bad toc (typical stuff with file paths; someone also accidentally added a <code>_</code> as the first character in the first line &#8211; this would be a good &#8220;challenge&#8221; exercise)</li>
-
-
-
-<li>adding a content file in <code>repo_root/</code> instead of <code>repo_root/book/</code></li>
-
-
-
-<li>not being able to find the Actions tab (or read/navigate the contents)</li>
-
-
-
-<li>using the correct repo: not being able to find the one they created, perhaps looking in teachbooks org repos (some did PR to template, not a partner repo)</li>
-
-
-
-<li>not setting up actions fast enough, causing first build to fail. how to restart/redo the first build (re-run job or make an empty commit)</li>
-</ul>
-
-
-
-<p>A concise checklist for creating a GitHub account quickly (manual page)</p>
-
-
-
-<ul class="wp-block-list">
-<li>tips for which email to use (note that more can be added later)</li>
-
-
-
-<li>reminder that the username/handle is important as you may use it in work and personal situations</li>
-
-
-
-<li>include screenshots/descriptions of some of the things that don&#8217;t matter (GitHub survey questions)</li>
-
-
-
-<li>maybe a 2FA note is needed?</li>
-</ul>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://teachbooks.io/new_homepage/new_website/teachbooks-workshop-experience/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
 		<title>Blog Test</title>
 		<link>https://teachbooks.io/new_homepage/new_website/blog-test/</link>
-					<comments>https://teachbooks.io/new_homepage/new_website/blog-test/#respond</comments>
 		
 		<dc:creator><![CDATA[k_gatt]]></dc:creator>
 		<pubDate>Thu, 19 Dec 2024 17:44:07 +0000</pubDate>
@@ -222,8 +45,6 @@
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://teachbooks.io/new_homepage/new_website/blog-test/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
